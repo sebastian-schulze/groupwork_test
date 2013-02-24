@@ -18,7 +18,7 @@ int main()
    // calculation capacitors test
 
    // print out
-   fctOutput(iRes,iCoi,iCap);
+   fctOutput(&strFirst,&strLast,iRes,iCoi,iCap);
 
    return 0;
 }

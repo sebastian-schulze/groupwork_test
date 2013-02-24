@@ -14,15 +14,14 @@ void fctInput(char *strFirstName, char *strLastName, int *iResistors, int *iCoil
       " you would like to order in the following.\n",strFirstName,strLastName);
 
    printf("\nHow many resistors would you like to order:\t");
-   scanf("%hi",&*iResistors);
+   scanf("%d",&*iResistors);
    __fpurge(stdin);
 
    printf("\nHow many coils would you like to order:\t\t");
-   scanf("%hi",&*iCoils);
+   scanf("%d",&*iCoils);
    __fpurge(stdin);
 
    printf("\nHow many capacitors would you like to order:\t");
-   scanf("%hi",&*iCapacitors);
+   scanf("%d",&*iCapacitors);
    __fpurge(stdin);
-   return 0
 }

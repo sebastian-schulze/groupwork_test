@@ -11,7 +11,7 @@ int main()
 
    // calculation coils
 
-   // calculation capacitors
+   // calculation capacitors test
 
    // print out
 

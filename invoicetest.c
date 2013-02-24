@@ -9,9 +9,9 @@ int main()
 
    // calculation resistors test
 
-   // calculation coils
+   // calculation coils test
 
-   // calculation capacitors
+   // calculation capacitors test
 
    // print out
 

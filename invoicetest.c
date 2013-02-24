@@ -7,7 +7,7 @@ int main()
 
    //input
 
-   // calculation resistors
+   // calculation resistors test
 
    // calculation coils
 

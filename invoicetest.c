@@ -9,7 +9,7 @@ int main()
 
    // calculation resistors
 
-   // calculation coils
+   // calculation coils test
 
    // calculation capacitors
 

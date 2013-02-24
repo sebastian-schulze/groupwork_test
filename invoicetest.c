@@ -3,9 +3,8 @@
 
 int main()
 {
-   // variables declaration
 
-   //input
+   // input
 
    // calculation resistors test
 

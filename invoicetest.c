@@ -1,24 +1,29 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include "./libraries/input.h"
-#include "./libraries/output.h"
+#include "./header files/input.h"
+#include "./header files/output.h"
+#include "./header files/resistors.h"
 
 int main()
 {
-   int iRes, iCoi, iCap;
-   char strFirst[50]="";
-   char strLast[50]="";
+   int iRes, iCoi, iCap, iLed;
+   float fResPrice, fCoiPrice, fCapPrice, fLedPrice;
 
    // input
-   fctInput(&strFirst,&strLast,&iRes,&iCoi,&iCap);
-   // calculation resistors test
+   fctInput(&iRes,&iCoi,&iCap,&iLed);
+   
+   // calculation resistors
+   fResPrice=fctResistors(iRes);
+   
+   // calculation coils
 
-   // calculation coils test
+   
+   // calculation capacitors
 
-   // calculation capacitors test
+   
+   // calculation LEDs
+
 
    // print out
-   fctOutput(&strFirst,&strLast,iRes,iCoi,iCap);
+   fctOutput(fResPrice,iCoi,iCap,iLed);
 
    return 0;
 }

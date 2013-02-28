@@ -1,16 +1,10 @@
-#define price 2
-#define discount 0.95
+// edit the function definition to calculate the total price of resistors
+// each resistor costs EUR 2
 float fctResistors(int iResistors)
 {
    float fPrice;
-   if (iResistors>=50) 
-   {
-      fPrice=iResistors*price*discount;
-   }
-   else
-      {
-         fPrice=iResistors*price;
-      }
+
+   fPrice=iResistors*2;
    
    return fPrice;
 }
